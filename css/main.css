@@ -30,19 +30,15 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax2 {
   background-image: url("../media/img1.jpg");
   height: 100%; 
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax3 { 
@@ -52,8 +48,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .center-img {
@@ -109,8 +103,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax5 { 
@@ -120,8 +112,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax6 { 
@@ -131,8 +121,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax7 { 
@@ -142,8 +130,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax8 { 
@@ -153,8 +139,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax9 { 
@@ -164,8 +148,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax10 { 
@@ -175,8 +157,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax11 { 
@@ -186,8 +166,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax12 { 
@@ -197,8 +175,6 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
 
 .parallax13 { 
@@ -208,6 +184,4 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0s linear;
-  transition-property: background-position;
 }
