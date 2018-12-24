@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+html, body {
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway, sans-serif !important;
+}
+
+i {
+  color: white;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.parallax {
+  background-image: url("../media/bg-img.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+.parallax2 {
+  background-image: url("../media/img1.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { 
+  background-image: url("../media/img2.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-img {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.mag-img {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 18px;
+  transition: 0.3s;
+}
+
+.mag-img:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.mag-btn {
+  color: #00cc6c
+}
+
+.mag-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
