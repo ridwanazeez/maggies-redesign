@@ -30,7 +30,8 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  transition: 0.3s;
+  transition: 0s linear;
+  transition-property: background-position;
 }
 
 .parallax2 {
@@ -40,6 +41,8 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
 }
 
 .parallax3 { 
@@ -49,12 +52,14 @@ i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
 }
 
 .center-img {
   position: absolute;
   left: 0;
-  top: 35%;
+  top: 30%;
   width: 100%;
   text-align: center;
   color: #000;
@@ -75,9 +80,134 @@ i {
 }
 
 .mag-btn {
-  color: #00cc6c
+  color: #00cc6c;
 }
 
 .mag-nav {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.mag-bg {
+  background-color: #00cc6c;
+}
+
+.parallax-caption {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.parallax4 { 
+  background-image: url("../media/breakfast.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax5 { 
+  background-image: url("../media/img7.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax6 { 
+  background-image: url("../media/img10.webp");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax7 { 
+  background-image: url("../media/img3.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax8 { 
+  background-image: url("../media/img4.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax9 { 
+  background-image: url("../media/img6.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax10 { 
+  background-image: url("../media/img5.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax11 { 
+  background-image: url("../media/img8.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax12 { 
+  background-image: url("../media/img9.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
+}
+
+.parallax13 { 
+  background-image: url("../media/img11.jpg");
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  transition-property: background-position;
 }
