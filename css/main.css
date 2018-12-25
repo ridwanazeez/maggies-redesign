@@ -14,40 +14,15 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Raleway, sans-serif !important;
+  font-family: Raleway, sans-serif;
 }
 
 i {
   color: white;
   font-size: 1.5rem;
   display: inline-block;
-}
-
-.parallax {
-  background-image: url("../media/bg-img.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax2 {
-  background-image: url("../media/img1.jpg");
-  height: 100%; 
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax3 { 
-  background-image: url("../media/img2.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  vertical-align: middle;
+  padding-right: 10px;
 }
 
 .center-img {
@@ -65,16 +40,20 @@ i {
   transition: 0.3s;
 }
 
-.mag-img:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
 .jumbotron {
   margin: 0;
+  background-color: #fff;
 }
 
 .mag-btn {
-  color: #00cc6c;
+  color: #fff;
+  background-color: #00cc6c;
+  border-color: #00cc6c;
+  border-radius: 3rem;
+}
+
+.mag-btn:hover {
+  background-color: #00bb64;
 }
 
 .mag-nav {
@@ -85,103 +64,12 @@ i {
   background-color: #00cc6c;
 }
 
-.parallax-caption {
-  position: absolute;
-  left: 0;
-  top: 35%;
-  width: 100%;
-  text-align: center;
-  color: #fff;
+.mag-link {
+  color: #00cc6c;
 }
 
-.parallax4 { 
-  background-image: url("../media/breakfast.jpg");
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: darken;
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.parallax-window {
+  min-height: 100%;
+  background: transparent;
 }
 
-.parallax5 { 
-  background-image: url("../media/img7.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax6 { 
-  background-image: url("../media/img10.webp");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax7 { 
-  background-image: url("../media/img3.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax8 { 
-  background-image: url("../media/img4.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax9 { 
-  background-image: url("../media/img6.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax10 { 
-  background-image: url("../media/img5.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax11 { 
-  background-image: url("../media/img8.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax12 { 
-  background-image: url("../media/img9.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax13 { 
-  background-image: url("../media/img11.jpg");
-  height: 100%; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
