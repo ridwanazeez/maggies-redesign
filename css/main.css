@@ -25,19 +25,28 @@ i {
   padding-right: 10px;
 }
 
-.center-img {
+.main {
   position: absolute;
   left: 0;
   top: 30%;
   width: 100%;
   text-align: center;
-  color: #000;
+}
+
+.main2 {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 18px;
 }
 
 .mag-img {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 18px;
-  transition: 0.3s;
 }
 
 .jumbotron {
@@ -71,5 +80,18 @@ i {
 .parallax-window {
   min-height: 100%;
   background: transparent;
+}
+
+.mapouter {
+  text-align:right;
+  height:300px;
+  width:300px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none !important;
+  height:300px;
+  width:300px;
 }
 
